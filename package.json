@@ -1,0 +1,40 @@
+{
+  "name": "create-chrome-extension-app",
+  "version": "0.0.1",
+  "description": "create extension for Google Extensions",
+  "main": "index.js",
+  "bin": {
+    "create-chrome-extension-app": "ts-node ./scripts/command.ts"
+  },
+  "scripts": {
+    "start": "ts-node ./scripts/command.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder-lcn/clear-page-content.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coder-lcn/clear-page-content/issues"
+  },
+  "homepage": "https://github.com/coder-lcn/clear-page-content#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.178",
+    "@types/fs-extra": "^9.0.13",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.0",
+    "puppeteer": "^13.3.0",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.4",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "fs-extra": "^10.0.0"
+  }
+}

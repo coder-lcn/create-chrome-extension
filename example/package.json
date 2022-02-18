@@ -1,0 +1,13 @@
+{
+  "name": "f",
+  "version": "1.0.0",
+  "description": "f",
+  "scripts": {
+    "start": "create-chrome-extension-app start",
+    "build": "create-chrome-extension-app build"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "create-chrome-extension-app": "0.0.1"
+  }
+}
